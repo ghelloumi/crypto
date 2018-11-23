@@ -1,0 +1,343 @@
+.DashboardContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.DashboardContainer .DashboardTitle {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex: 1 1;
+}
+
+.DashboardContainer .DashboardTitle > div {
+    margin-left: 70px;
+}
+
+.DashboardContainer .DashboardTitle > div > h1 {
+    font-size: 36px;
+    font-weight: 600;
+    color: whitesmoke;
+}
+
+.DashboardContainer .DashboardTitle > div > h1 > span {
+    color: #2b2b2bbd;
+}
+
+.DashboardContainer .DashboardTitle > div > p {
+    font-size: 24px;
+    color: whitesmoke;
+    font-weight: 500;
+}
+
+.DashboardContainer .DashboardTitle > div > p > span {
+    color: #2d2d2d;
+}
+
+.DashboardContainer .DashboardInfo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1 1;
+}
+
+.DashboardContainer .DashboardInfo .DashboardInfoTableBackground {
+    height: 450px;
+    width: 400px;
+    background: #242e4e;
+    border-top-right-radius: 46px;
+}
+
+.DashboardContainer .DashboardInfo .DashboardInfoTableBackground .DashboardInfoTable {
+    background: #303b5f;
+    height: 90%;
+    width: 90%;
+    transform: translate(11px, 30px)
+}
+
+.DashboardContainer .DashboardInfo .DashboardInfoTableBackground .DashboardInfoTable .DashboardInfoTableHeader {
+    display: flex;
+}
+
+.DashboardContainer .DashboardInfo .DashboardInfoTableBackground .DashboardInfoTable .DashboardInfoTableHeader > div {
+    flex: 1 1;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    color: white;
+    background: #2b3656;
+    box-shadow: inset 0 0 40px #13121240;
+    cursor: pointer;
+    transition: all 350ms;
+}
+
+.DashboardContainer .DashboardInfo .DashboardInfoTableBackground .DashboardInfoTable .DashboardInfoTableHeader > div:first-of-type > label {
+    margin-bottom: 5px;
+}
+
+.DashboardContainer .DashboardInfo .DashboardInfoTableBackground .DashboardInfoTable .DashboardInfoTableHeader > div > i {
+    font-size: 25px;
+}
+
+.DashboardContainer .DashboardInfo .DashboardInfoTableBackground .DashboardInfoTable .DashboardInfoTableHeader > div > img {
+    height: 38px;
+}
+
+.DashboardContainer .DashboardInfo .DashboardInfoTableBackground .DashboardInfoTable .DashboardInfoTableHeader > div > label {
+}
+
+.DashboardContainer .DashboardInfo .DashboardInfoTableBackground .DashboardInfoTable .DashboardInfoTableContent {
+}
+
+.DashboardContainer .DashboardInfo .DashboardInfoTableBackground .DashboardInfoTable .DashboardInfoTableContent .DashboardInfoTableContent1 {
+}
+
+.DashboardInfoTableContent1 .Balance {
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 7px 14px 0 10px;
+    color: #d4d4d4;
+    font-weight: 600;
+}
+
+.DashboardInfoTableContent1 .Balance > span {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1px;
+    margin-left: 10px;
+}
+
+.DashboardInfoTableContent1 .WalletCurrencies {
+    height: 233px;
+}
+
+.DashboardInfoTableContent1 .WalletCurrencies .WalletCurrency {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 22px;
+    height: 46px;
+}
+
+.DashboardInfoTableContent1 .WalletCurrencies .WalletCurrency > div {
+    display: flex;
+    align-items: center;
+    outline: none;
+}
+
+.DashboardInfoTableContent1 .WalletCurrencies .WalletCurrency > div > img {
+    height: 30px;
+}
+
+.DashboardInfoTableContent1 .WalletCurrencies .WalletCurrency > div > p {
+    margin-left: 14px;
+    color: #d4d4d4;
+    font-weight: 600;
+    overflow-x: auto;
+    height: 30px;
+}
+
+/* width */
+.DashboardInfoTableContent1 .WalletCurrencies .WalletCurrency ::-webkit-scrollbar {
+    width: 10px;
+    height: 5px !important;
+}
+
+/* Track */
+.DashboardInfoTableContent1 .WalletCurrencies .WalletCurrency ::-webkit-scrollbar-track {
+    background: #f1f1f13b;
+}
+
+/* Handle */
+.DashboardInfoTableContent1 .WalletCurrencies .WalletCurrency ::-webkit-scrollbar-thumb {
+    background: #334344ab;
+}
+
+/* Handle on hover */
+.DashboardInfoTableContent1 .WalletCurrencies .WalletCurrency ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.DashboardInfoTableContent1 .WalletCurrencies .WalletCurrency > div > button {
+    border: 1px solid #2d6ba5;
+    border-radius: 3px;
+    height: 28px;
+    width: 50px;
+    color: #2d6ba5;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    background: #efefef;
+    cursor: pointer;
+    transition: all 350ms;
+}
+
+.BtnMod {
+    border: 0 !important;
+    border-radius: 0 !important;
+    background: none !important;
+    color: white !important;
+    display: flex;
+    width: 108px !important;
+    padding: 0 !important;
+    outline: none;
+}
+
+.BtnMod > div {
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.BtnMod > div:first-of-type {
+    width: 80px;
+    background: #46b2bf;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 18px;
+}
+
+.BtnMod > div:last-of-type {
+    background: #37909a;
+    width: 28px;
+    border-bottom-right-radius: 18px;
+    border-top-right-radius: 18px;
+    font-size: 18px;
+}
+
+.DashboardInfoTableContent1 .WalletCurrencies .WalletCurrency > div > button:hover {
+    background: #d4d4d4;
+    transition: all 350ms;
+}
+
+.DashboardInfoTableContentBtns {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+
+.DashboardInfoTableContentBtns > button {
+    height: 32px;
+    width: 150px;
+    cursor: pointer;
+    border: 0;
+    border-radius: 3px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 11px;
+    color: white;
+}
+
+.DashboardInfoTableContentBtns > button:first-of-type {
+    background: #0aa6f9;
+}
+
+.DashboardInfoTableContentBtns > button:last-of-type {
+    background: #56c356;
+}
+
+.Deposit .WalletCurrencies .WalletCurrency > div {
+    width: 100%;
+}
+
+.LoadingUserInfo {
+    height: 80%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.LoadingUserInfo > img {
+    height: 140px;
+}
+
+.DashboardContainer .modal {
+    width: 400px;
+    height: 130px;
+}
+
+.SendToForm {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.SendToForm > input {
+    height: 30px;
+    margin: 4px 0;
+    width: 100%;
+    border-radius: 4px;
+    padding: 0 11px;
+    border: 1px solid #b1b1b1;
+    font-size: 13px;
+    color: #444444;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.SendToForm > input:focus {
+    background: #f5f5f5;
+}
+
+.SendToForm > button, .SendToFormError > button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    height: 37px;
+    margin-top: 10px;
+    background: #49a8d0;
+    border: 0;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    width: 100%;
+}
+
+.SendToForm > img {
+    height: 37px;
+    width: 37px;
+    margin-top: 10px;
+    margin: 0 auto;
+    transform: translateY(14px);
+}
+
+.SendToFormError {
+    text-align: center;
+}
+
+.SendToFormError > p {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.SendToFormError > button {
+    width: 100px;
+    margin-top: 20px;
+}
+
+.SendToFormHash {
+    text-align: center;
+}
+.SendToFormHash > p {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.SendToFormHash > a {
+    word-break: break-all;
+    line-height: 22px;
+    color: #005392;
+    cursor: pointer;
+    transition: all 350ms;
+}
+
+.SendToFormHash > a:hover{
+    transition: all 350ms;
+    text-decoration: underline;
+}

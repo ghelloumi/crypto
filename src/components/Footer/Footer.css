@@ -1,0 +1,79 @@
+.Footer {
+    height: 300px;
+    background: #0b0b21;
+    display: flex;
+    padding: 0 100px;
+}
+
+.Footer > div {
+    display: flex;
+    flex-direction: column;
+    padding: 45px 15px;
+}
+
+.Footer > div:nth-of-type(1), .Footer > div:nth-of-type(2) {
+    width: 40%;
+
+}
+
+.Footer > div:nth-of-type(3) {
+    width: 20%;
+}
+
+.Footer > div > h3 {
+    color: #cccccc;
+}
+
+.Footer > div > p {
+    color: #525252;
+    line-height: 22px;
+    font-size: 14px;
+}
+
+.Footer > div:nth-of-type(2) > div {
+
+}
+
+.Footer > div > div > input {
+    height: 38px;
+    width: 290px;
+    padding: 0 10px;
+    border: 0;
+    font-weight: bold;
+    color: #2b2a2a;
+}
+
+.Footer > div > div > button {
+    height: 38px;
+    border: 0;
+    width: 44px;
+    background: #00bafa;
+    color: white;
+    cursor: pointer;
+}
+
+.Footer .FooterContentSocial {
+    display: flex;
+    align-items: center;
+    margin-left: -18px;
+}
+
+.Footer .FooterContentSocial > a {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.Footer .FooterContentSocial > a > i {
+    font-size: 28px;
+    color: #9a9a9a;
+    transition: all 250ms;
+}
+
+.Footer .FooterContentSocial > a > i:hover, .Footer .FooterContentLinks > a:hover {
+    transition: all 250ms;
+    color: #00bafa;
+}

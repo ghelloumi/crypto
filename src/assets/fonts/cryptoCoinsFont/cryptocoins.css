@@ -1,0 +1,33 @@
+@font-face {
+  font-family: "cryptocoins";
+  src: url('cryptocoins.woff') format('woff');
+}
+
+.cc::before {
+  font-family: "cryptocoins", sans-serif;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+
+  text-decoration: none;
+  text-transform: none;
+}
+
+.cc.BTC-alt::before {
+  content: "\E02D";
+}
+.cc.XVG-alt::before {
+  content: "\E136";
+}
+.cc.LTC-alt::before {
+  content: "\E097";
+}
+.cc.ETC-alt::before {
+  content: "\E055";
+}
+.cc.EOS-alt::before {
+  content: "\E051";
+}
+
+i.cc { font-size: 4rem; display: inline-block; margin: 0 1.3rem 1.3rem 0; transition: 0.1s ease all; }
+i.cc:hover { color: #0060BD; transform: rotate(-20deg); transform-origin: 0.49em 0.7em; }

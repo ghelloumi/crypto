@@ -1,0 +1,223 @@
+.LoginContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0;
+}
+
+.LoginSection {
+    height: 100%;
+    width: 48.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.LoginSection .LoginSectionForm {
+    border-radius: 4px;
+    width: 400px;
+}
+
+.LoginSection .LoginSectionForm .LoginSectionFormHeader {
+    background: #00678ab5;
+    display: flex;
+    align-items: center;
+    height: 90px;
+}
+
+.LoginSection .LoginSectionForm .LoginSectionFormHeader > div:first-of-type {
+    height: 100%;
+    width: 80%;
+    color: #ececec;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 18px;
+}
+
+.LoginSection .LoginSectionForm .LoginSectionFormHeader > div:last-of-type {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.LoginSection .LoginSectionForm .LoginSectionFormHeader > div > h4 {
+    margin: 4px 0;
+    font-size: 19px;
+}
+
+.LoginSection .LoginSectionForm .LoginSectionFormHeader > div > p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.LoginSection .LoginSectionForm .LoginSectionFormHeader > div > i {
+    color: #ecececab;
+    font-size: 46px;
+}
+
+.LoginSection .LoginSectionForm .LoginSectionFormContent {
+    background: #0079a2b5;
+    padding: 20px 0;
+}
+
+.LoginSection .LoginSectionForm .LoginSectionFormContent .SignInCred {
+    text-align: center;
+}
+
+.LoginSection .LoginSectionForm .LoginSectionFormContent .SignInCred > input {
+    height: 32px;
+    width: 340px;
+    border-radius: 4px;
+    border: 1px solid #bcbcbc;
+    margin: 6px 0;
+    padding: 0 8px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #2d2d2d;
+    outline: none;
+    transition: all 350ms;
+}
+
+.LoginSection .LoginSectionForm .LoginSectionFormContent .SignInCred > input:focus {
+    transition: all 350ms;
+    background: #dfdfdf;
+}
+
+.LoginSection .LoginSectionForm .LoginSectionFormContent .SignInBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.LoginSection .LoginSectionForm .LoginSectionFormContent .SignInBtn > button {
+    height: 45px;
+    width: 356px;
+    margin: 6px 0;
+    border: 0;
+    background: #008c00;
+    color: white;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    transition: all 350ms;
+}
+
+.LoginSection .LoginSectionForm .LoginSectionFormContent .SignInBtn > p {
+    height: 45px;
+    margin: 6px 0;
+    color: #bf0a0a;
+    font-weight: 600;
+    line-height: 46px;
+}
+
+.LoginSection .LoginSectionForm .LoginSectionFormContent .SignInBtn > button:hover {
+    transition: all 350ms;
+    background: #009800;
+}
+
+.LoginSection .LoginSectionSocial {
+}
+
+.LoginSection .LoginSectionSocial > p {
+    color: whitesmoke;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.LoginSection .LoginSectionSocial > div {
+    display: flex;
+}
+
+.LoginSection .LoginSectionSocial > div > a {
+    background: #0079a2b5;
+    height: 40px;
+    width: 124px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 5px;
+    border-radius: 4px;
+    border: 1px solid #ececec69;
+    cursor: pointer;
+    transition: all 350ms;
+}
+
+.LoginSection .LoginSectionSocial > div > a:hover {
+    transition: all 350ms;
+    background: rgba(0, 135, 180, 0.71);
+}
+
+.LoginSection .LoginSectionSocial > div > a > i {
+    color: #e6e6e6;
+}
+
+.LoginSection .LoginSectionSocial > div > a > span {
+    color: #e6e6e6;
+}
+
+.VerticalSeparator {
+    background: #c7c7c7ba;
+    height: 402px;
+    width: 1px;
+}
+
+.SignUpSection {
+}
+
+.LoginSectionFormContent .modal {
+    height: 320px;
+    width: 350px;
+    text-align: center;
+    padding: 15px 15px 36px 15px !important;
+}
+
+.LoginSectionFormContent .modal .QrCode {
+    height: 150px;
+    border: 2px solid #a2a2a2;
+    border-radius: 10px;
+}
+
+.LoginSectionFormContent .modal > p {
+    line-height: 25px;
+    font-size: 14px;
+    padding: 0;
+}
+
+.LoginSectionFormContent .modal > p > span {
+    font-weight: 600;
+}
+
+.react-code-input > input{
+    width: 28px !important;
+    height: 35px !important;
+    font-size: 21px !important;
+}
+
+.LoginSectionFormContent .modal .react-code-input > input[type=number]::-webkit-inner-spin-button,
+.LoginSectionFormContent .modal .react-code-input >input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.LoginSectionFormContent .modal >button{
+    display: block;
+    margin: auto;
+    margin-top: 11px;
+    height: 32px;
+    width: 84px;
+    border: 1px solid #e4e4e4;
+    color: white;
+    background: #068806;
+    border-radius: 4px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+}
